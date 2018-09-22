@@ -1,10 +1,10 @@
 require "pry"
 
 def speak_to_grandma(phrase)
-  if phrase.downcase
+  if phrase == phrase.downcase
     "HUH?! SPEAK UP, SONNY!"
     
-  elsif phrase.upcase
+  elsif phrase == phrase.upcase
     put "NO, NOT SINCE 1938!"
     
   else 
