@@ -8,7 +8,7 @@ def speak_to_grandma(phrase)
     put "NO, NOT SINCE 1938!"
     
   else 
-    if phrase = "I LOVE YOU GRANDMA!"
+    if phrase == "I LOVE YOU GRANDMA!"
       put "I LOVE YOU TOO PUMPKIN!"
   end
 end
