@@ -9,5 +9,5 @@ def speak_to_grandma(phrase)
     
   else 
     if phrase == "I LOVE YOU GRANDMA!"
-      put "I LOVE YOU TOO PUMPKIN!"
+      "I LOVE YOU TOO PUMPKIN!"
   end
