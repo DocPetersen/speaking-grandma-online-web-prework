@@ -2,7 +2,7 @@ require "pry"
 
 def speak_to_grandma(phrase)
   if phrase.downcase
-    put "HUH?! SPEAK UP, SONNY!"
+    "HUH?! SPEAK UP, SONNY!"
     
   elsif phrase.upcase
     put "NO, NOT SINCE 1938!"
